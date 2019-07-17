@@ -3,7 +3,7 @@
 # VSP 2019 Lectures
 
 0. [Introduction](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-0.pdf)
-1. HTTP, HTML, and CSS
+1. [HTTP, HTML, and CSS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-1.pdf)
 2. JavaScript Basics
 3. DOM and Events
 4. Callback and Closure

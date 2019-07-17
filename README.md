@@ -13,3 +13,4 @@ This repository contains all the materials for the course: **Building Modern Web
 ## Lecture Slides
 
 0. [Introduction](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-0.pdf)
+1. [HTTP, HTML, and CSS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-1.pdf)
