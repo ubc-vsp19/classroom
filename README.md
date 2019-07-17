@@ -6,5 +6,6 @@ This repository contains all the materials for the course: **Building Modern Web
 
 ## Links
 
-* [Assignments](https://github.com/ubp-vsp19/classroom/blob/master/assignments) - assignments will be released here
+* [Assignments](https://github.com/ubp-vsp19/classroom/tree/master/assignments) - assignments will be released here
+* [Lectures](https://github.com/ubp-vsp19/classroom/tree/master/lectures) - for lecture slides and notes
 * [Discussions](https://github.com/orgs/ubc-vsp19/teams/everyone) - for discussions on course-related topics and other class-wide discussions.
