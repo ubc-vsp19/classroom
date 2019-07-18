@@ -14,5 +14,5 @@ This repository contains all the materials for the course: **Building Modern Web
 * [Discussions](https://github.com/orgs/ubc-vsp19/teams/everyone) - for discussions on course-related topics and other class-wide discussions.
 * [Tutorials](https://github.com/ubc-vsp19/classroom/tree/master/tutorials) - additional tutorials that might be useful
     * [Setting up Git](https://github.com/ubc-vsp19/classroom/blob/master/tutorials/git-setup.md)
-
+* [Group List](https://docs.google.com/spreadsheets/d/1YlgG4l8b2VTWMB3FFRheOaB0YoU_BlCrMJki103u17A/edit?usp=sharing) - If you don't know your group, find it here
 
