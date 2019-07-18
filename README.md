@@ -8,8 +8,8 @@ This repository contains all the materials for the course: **Building Modern Web
 
 * [Assignments](https://github.com/ubc-vsp19/classroom/tree/master/assignments) - assignments will be released here
 * [Lectures](https://github.com/ubc-vsp19/classroom/tree/master/lectures) - for lecture slides and notes
-    0. [Introduction](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-0.pdf)
-    1. [HTTP, HTML, and CSS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-1.pdf)   
+    1. [Introduction](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-0.pdf)
+    2. [HTTP, HTML, and CSS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-1.pdf)   
 * [Discussions](https://github.com/orgs/ubc-vsp19/teams/everyone) - for discussions on course-related topics and other class-wide discussions.
 * [Tutorials](https://github.com/ubc-vsp19/classroom/tree/master/tutorials) - additional tutorials that might be useful
     * [Setting up Git](https://github.com/ubc-vsp19/classroom/blob/master/tutorials/git-setup.md)
