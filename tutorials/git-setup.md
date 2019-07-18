@@ -24,7 +24,7 @@ This walk-through assumes you're working in a Unix environment - i.e. using `ls`
 #     your working directory is at "~/projects"
 # Replace the above two tokens with your own settings.
 
-~/projects$ git clone https://github.com/ubc-vsp19/classroom/vsp-group-a.git
+~/projects$ git clone https://github.com/jungkumseok/vsp-group-a.git
 ```
 
 3. The repository is now copied to your machine at `~/projects/vsp-group-a`. Navigate into the directory to see the content.
@@ -155,10 +155,10 @@ Delta compression using up to 4 threads.
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 940 bytes | 0 bytes/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/ubc-vsp19/classroom/vsp-group-a.git
+To https://github.com/jungkumseok/vsp-group-a.git
  * [new branch]      assignment-0 -> assignment-0
 ```
 
 The command line argument `origin` refers to the remote repository at Github. You can check the list of remote repositories by typing `git remote -v`.
 
-16. On a browser, navigate to your Github repository at `https://github.com/ubc-vsp19/classroom/vsp-group-a` to see the updated repository. The TA's will be looking at this repository to mark the assignments.
+16. On a browser, navigate to your Github repository at `https://github.com/jungkumseok/vsp-group-a` to see the updated repository. The TA's will be looking at this repository to mark the assignments.
