@@ -22,11 +22,11 @@ To help you get started, you will need to structure your project into the follow
 
 For this particular assignment, you will write some basic HTML and CSS to build the homepage for the web app. There is no JavaScript required for this assignment, so you will be penalized if you use JavaScript for this assignment.
 
-The file [layout.pdf](layout.pdf) provides a wireframe of what the user interface should look like. You are free to choose colours and fonts of your own choice.
+The file [layout.png](layout.pdf) provides a wireframe of what the user interface should look like. You are free to choose colours and fonts of your own choice.
 
 ## Tasks
 
-1. Create the HTML layout that will be required to generate the web page provided in the screenshot. Your homepage should include the following elements:
+1. [HTML] Create the HTML layout that will be required to generate the web page provided in the screenshot. Your homepage should include the following elements:
     - Div (id=mainBody)
         - Heading
         - Table (id=imagesGrid)
@@ -39,25 +39,34 @@ The file [layout.pdf](layout.pdf) provides a wireframe of what the user interfac
                     - Image 3
                 - Cell 4
                     - Image 4
-                - Row 2
+            - Row 2
                     - ...
 
     - Notes:
-        - You can find all 8 images in the [`images`](images) folder.
+        - You can find all 8 images in the `images` folder.
         - The images will likely be too big to fit on the screen, but that's OK, since that will be fixed in the next task.
 
-2. Create a CSS stylesheet to add relevant styles that would help you design the layout for the web page. A few things to keep in mind:
+2. [CSS] Create a CSS stylesheet to add relevant styles that would help you design the layout for the web page. A few things to keep in mind:
     - The width of the content within the website (mainBody) should be 1000px.
     - The content (mainBody) should be centered within the web page.
-    - The mainBody div should have a different background colour than the `<body>`, so it stands out from the rest of the web page.
     - Make sure that all 8 images fit nicely inside the table. That is, they do not overflow outside the table. (Hint: You need to modify the width of the images inside the table).
-    - The cursor should change to a 'hand' when hovered over the images.
-    - The images should scale to 1.1 times their original size when hovered over (Hint: Look into the transform CSS property).
     - Add a shadow to the images when hovered over.
     - Make the border of the images rounded on the edges when hovered over.
 
 Note that you do not need to setup any server to host the webpage you are creating. Simply open the html page with any browser, and the webpage will be displayed.
 
+
+##Marking
+
+1. Task 1: 5 Points
+2. Task 2:
+    1. A: 2 Points
+    2. B: 2 Points
+    3. C: 2 Points
+    4. D: 2 Points
+    5. E: 2 Points
+
+
 ## Submission Instructions
-- For each assignment, create a branch called assignment-X, for ex: assignment-1, assignment-2, etc. **For this assignment, your branch name should be assignment-1.**
-- Make sure you push your changes to that branch before noon (11:59 AM) on the date of the assignment deadline (**July 22, 2019 11:59 AM**).
+- For each assignment, create a branch called assignment-, for ex: assignment-1, assignment-2, etc. **For this assignment, your branch name should be assignment-1.**
+- Make sure you push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline (**July 23, 2018 11:59 PM**).
