@@ -26,4 +26,4 @@ In this assignment, you will make the web app responsive. That is, the app will 
 
 - Update either your own code from Assignment 1, or the sample solution code to accommodate the required changes for this assignment.
 - Create a branch, and name it appropriately (eg. assignment-2)
-- Make sure to push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline.
+- Make sure to push your changes to that branch before noon (11:59 AM) on the date of the assignment deadline.

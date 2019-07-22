@@ -69,4 +69,4 @@ Note that you do not need to setup any server to host the webpage you are creati
 
 ## Submission Instructions
 - For each assignment, create a branch called assignment-, for ex: assignment-1, assignment-2, etc. **For this assignment, your branch name should be assignment-1.**
-- Make sure you push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline (**July 23, 2018 11:59 PM**).
+- Make sure you push your changes to that branch before noon (11:59 AM) on the date of the assignment deadline (**July 22, 2019 11:59 AM**).
