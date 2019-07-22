@@ -7,6 +7,8 @@ This repository contains all the materials for the course: **Building Modern Web
 ## Links
 
 * [Assignments](https://github.com/ubc-vsp19/classroom/tree/master/assignments) - assignments will be released here
+    1. [Assignment 1](https://github.com/ubc-vsp19/classroom/tree/master/assignments/assignment-1)
+    2. [Assignment 2](https://github.com/ubc-vsp19/classroom/tree/master/assignments/assignment-2)
 * [Schedule](https://calendar.google.com/calendar/embed?src=t3rs0qbtr2n2r43gsju9qk495k%40group.calendar.google.com&ctz=America%2FVancouver) - check the course schedule here (e.g., assignment release/due dates)
 * [Lectures](https://github.com/ubc-vsp19/classroom/tree/master/lectures) - for lecture slides and notes
     1. [Introduction](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-0.pdf)
