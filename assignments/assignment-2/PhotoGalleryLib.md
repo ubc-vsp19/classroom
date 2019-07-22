@@ -8,7 +8,7 @@ The JavaScript file can be found [here](PhotoGalleryLib.js).
 
 Simply add a `<script>` tag like the following to use this in your code:
 
-`<script src="https://raw.githubusercontent.com/juliengs/vsp2018webapp-assignments/master/PhotoGalleryLib.js"></script>`
+`<script src="https://raw.githubusercontent.com/ubc-vsp19/classroom/master/assignments/assignment-2/PhotoGalleryLib.js"></script>`
 
 ## Functions
 
