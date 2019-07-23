@@ -5,7 +5,7 @@
 0. [Introduction](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-0.pdf)
 1. [HTTP, HTML, and CSS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-1.pdf)
 2. [JavaScript Basics](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-2.pdf)
-3. DOM and Events
+3. [DOM and Events](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-3.pdf)
 4. Callback and Closure
 5. Prototype and Reflection
 6. ECMAScript 2015 (ES6)
