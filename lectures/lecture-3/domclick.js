@@ -1,19 +1,20 @@
-// Solution to class activity
-
-var popup = function(name) {
-	var foo = alert;
-	return function(e) {
-		console.log(this);
-		foo(name + " : " + e.target);
-	}
-};
-
 window.onload = function() {
 	alert("document finished loading");
-	var setupBtn = document.getElementById("reset");
-	var runBtn = document.getElementById("increment");
-	var doneBtn = document.getElementById("done");
-	setupBtn.addEventListener( "click", popup("setup"), false);
-	runBtn.addEventListener( "click", popup("increment"), false);
-	doneBtn.addEventListener( "click", popup("done"), false);
+	var count = 0;
+	var resetHandler = function(){
+		// to implement
+	};
+	var upHandler = function(){
+		// to implement
+	};
+	var downHandler = function(){
+		// to implement
+	};
+
+	var resetBtn = document.getElementById("reset");
+	var upBtn = document.getElementById("up");
+	var downBtn = document.getElementById("down");
+	resetBtn.addEventListener( "click", resetHandler, false);
+	upBtn.addEventListener( "click", upHandler, false);
+	downBtn.addEventListener( "click", downHandler, false);
 }
