@@ -1,11 +1,10 @@
-var changeImages = function(id,  offset) {
+var changeImages = function(id, interval) {
 	// Write your solution here 
-
 
 }
 
 window.onload = function() {
 	setInterval( function() { 
 		changeImages("parent", 1);
-	}, 5000);
+	}, 3000);
 };
