@@ -1,4 +1,4 @@
-var changeImages = function(id, interval) {
+var changeImages = function(id, offset) {
 	// Write your solution here 
 
 }
