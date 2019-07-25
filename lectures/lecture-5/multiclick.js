@@ -1,6 +1,6 @@
 function addClickListeners (buttons){
    for (var i = 0; i < buttons.length; i++){
-      buttons.addEventListener("click", function(){
+      buttons[i].addEventListener("click", function(){
          alert("Clicked Button " + i);
       });
    }
