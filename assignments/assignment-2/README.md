@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This assignment is a continuation of Assignment 1. If you have successfully completed the previous assignment, you may use your own code, or you can use the sample solution for Assignment 1, posted [here](http://ece.ubc.ca/~kumseok/src/vsp2018/solutions/assignment-1.zip), to complete this assignment.
+This assignment is a continuation of Assignment 1. If you have successfully completed the previous assignment, you may use your own code, or you can use the sample solution for Assignment 1, posted [here](http://ece.ubc.ca/~kumseok/src/vsp19/solutions/assignment-1.zip), to complete this assignment.
 
 In this assignment, you will make the web app responsive. That is, the app will be optimized for viewing across multiple devices and screen sizes. For this assignment, and some future ones, you will use the [PhotoGalleryLib](PhotoGalleryLib.js) library provided by us, which includes a lot of helpful functions. The documentation and some examples of how to use this library can be found [here](PhotoGalleryLib.md).
 
