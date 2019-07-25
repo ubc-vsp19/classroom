@@ -7,7 +7,7 @@
 2. [JavaScript Basics](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-2.pdf)
 3. [DOM and Events](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-3.pdf)
 4. [Callback and Closure](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-4.pdf)
-5. Prototype and Reflection
+5. [DOM and Events - Part 2](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-5.pdf)
 6. ECMAScript 2015 (ES6)
 7. AJAX and REST API
 8. NodeJS: Server-side JS

@@ -16,6 +16,7 @@ This repository contains all the materials for the course: **Building Modern Web
     3. [JavaScript Basics](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-2.pdf)
     4. [DOM and Events](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-3.pdf)
     5. [Callback and Closure](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-4.pdf)
+    6. [DOM and Events - Part 2](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-5.pdf)
 * [Discussions](https://github.com/orgs/ubc-vsp19/teams/everyone) - for discussions on course-related topics and other class-wide discussions.
 * [Tutorials](https://github.com/ubc-vsp19/classroom/tree/master/tutorials) - additional tutorials that might be useful
     * [Setting up Git](https://github.com/ubc-vsp19/classroom/blob/master/tutorials/git-setup.md)
