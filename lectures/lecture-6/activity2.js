@@ -21,9 +21,9 @@ class Thing {
 
 // implement Actuator class
 
-var thermometer0 = new Sensor('thermometer-0', alice.id);
-var thermometer1 = new Sensor('thermometer-1', alice.id);
-var fan = new Actuator('fan-0', alice.id);
+var thermometer0 = new Sensor('thermometer-0');
+var thermometer1 = new Sensor('thermometer-1');
+var fan = new Actuator('fan-0');
 
 thermometer0.printStatus();
 thermometer1.printStatus();
