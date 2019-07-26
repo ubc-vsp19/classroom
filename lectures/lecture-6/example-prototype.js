@@ -10,5 +10,6 @@ Car.prototype.accelerate = function(fuel){
 };
 var myCar = new Car("Smart");
 myCar.accelerate(10);
+console.log( "velocity = " + myCar.velocity );
 
 console.log(myCar.accelerate === Car.prototype.accelerate);
