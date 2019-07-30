@@ -1,5 +1,6 @@
 // Example of AJAX request
-// - makes GET request to the python server (self-hosted)
+// - makes GET request to a public endpoint
+// - expects a JSON response from the public endpoint
 
 window.onload = function() {
 	var inflight = [];	// Array to keep all the XMLHttpRequests
@@ -14,15 +15,23 @@ window.onload = function() {
 	}
 
 	// Function for sending the request, attached as the click event listener
-	var sendRequest = (prefix, count)=> {
+	var sendRequest = (url)=> {
 		var label = "Request " + count;		// Just some label for readability
 		var req = new XMLHttpRequest();		// Create the actual XMLHttpRequest object
-		req.open("GET", prefix + '-' + count);	// Configure the connection with HTTP method and URL
+		req.open("GET", url);			// Configure the connection with HTTP method and URL
 
 		// On Load handler
 		req.onload = ()=> {
 			if (req.status === 200) {
-				console.log(label + " : Received " + req.responseText);
+				if (req.getResponseHeader("Content-Type").indexOf("application/json") > -1){
+					console.log(label + " : Received JSON Message");
+					var payload = JSON.parse(req.responseText);
+					console.log(payload);
+				}
+				else {
+					console.log(label + " : Received Text Message");
+					console.log(req.responseText);
+				}
 			} else {	
 				console.log(label + " : Received error code : " + req.status);
 			}
@@ -66,10 +75,13 @@ window.onload = function() {
 		}
 	};
 
+	// var URL = "https://reqres.in/api/users?page=1";		// hard-coded RESTful endpoint
+	var URL = "https://jsonplaceholder.typicode.com/posts/1";	// hard-coded RESTful endpoint
+
 	// Find the buttons from the DOM and attach listeners
 	var ok = document.getElementById("OK");
 	ok.addEventListener("click", ()=> {
-		sendRequest("hello", count);
+		sendRequest(URL);
 		count += 1;
 	}, false);	// sendRequest upon button click
 
