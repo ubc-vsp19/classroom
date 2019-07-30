@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This assignment is a continuation of Assignment 3. If you have successfully completed the previous assignment, you may use your own code, or you can use the sample solution for Assignment 3, posted [here](http://ece.ubc.ca/~kumseok/src/vsp2018/solutions/assignment-3.zip), to complete this assignment.
+This assignment is a continuation of Assignment 3. If you have successfully completed the previous assignment, you may use your own code, or you can use the sample solution for Assignment 3, posted [here](http://ece.ubc.ca/~kumseok/src/vsp19/solutions/assignment-3.zip), to complete this assignment.
 
 In this assignment, you will remove the hardcoded list of images from your code, and will also stop using the local image files stored on your computer. You will be using asynchronous requests (AJAX) to receive image URLs from a server, and use them to display the images in the grid.
 
