@@ -21,6 +21,7 @@ This repository contains all the materials for the course: **Building Modern Web
     6. [DOM and Events - Part 2](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-5.pdf)
     7. [ECMAScript 2015 (ES6)](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-6.pdf)
     8. [AJAX and REST API](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-7.pdf)
+    9. [NodeJS: Server-side JS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-8.pdf)
 * [Discussions](https://github.com/orgs/ubc-vsp19/teams/everyone) - for discussions on course-related topics and other class-wide discussions.
 * [Tutorials](https://github.com/ubc-vsp19/classroom/tree/master/tutorials) - additional tutorials that might be useful
     * [Setting up Git](https://github.com/ubc-vsp19/classroom/blob/master/tutorials/git-setup.md)

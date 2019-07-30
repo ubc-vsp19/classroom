@@ -10,7 +10,7 @@
 5. [DOM and Events - Part 2](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-5.pdf)
 6. [ECMAScript 2015 (ES6)](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-6.pdf)
 7. [AJAX and REST API](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-7.pdf)
-8. NodeJS: Server-side JS
+8. [NodeJS: Server-side JS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-8.pdf)
 9. Session and Cookie
 10. Modern Web Frameworks
 11. Revision
