@@ -9,7 +9,7 @@
 4. [Callback and Closure](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-4.pdf)
 5. [DOM and Events - Part 2](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-5.pdf)
 6. [ECMAScript 2015 (ES6)](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-6.pdf)
-7. AJAX and REST API
+7. [AJAX and REST API](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-7.pdf)
 8. NodeJS: Server-side JS
 9. Session and Cookie
 10. Modern Web Frameworks
