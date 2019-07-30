@@ -1,84 +1,87 @@
-// Simple AJAX request issuer - keeps track of multiple requests
+window.onload = function() {
+	var URL = "https://reqres.in/api/users?page=1";		// hard-coded RESTful endpoint
+	// var URL = "https://jsonplaceholder.typicode.com/posts/1";	// hard-coded RESTful endpoint
 
-// Display the list of messages in flight
-function displayInFlight(inflight) {
-	return function() {	
-		if (inflight.length > 0) {
-			var result = "In flight messages : ";
-			for (var i=0; i<inflight.length; i++) {
-				result = result + " (" + inflight[i] + ")";
+	var inflight = [];	// Array to keep all the XMLHttpRequests
+	var count = 0;		// Just keeping count of how many requests are made
+
+	// helper function for removing the request from the inflight array
+	// will be called in the XMLHttpRequest event handlers
+	var removeRequest = (req)=> {
+		var index = inflight.indexOf(req);
+		if (index > -1) inflight.splice(index, 1);
+		else alert(req.toString() + " not found !");
+	}
+
+	// Function for sending the request, attached as the click event listener
+	var sendRequest = ()=> {
+		var label = "Request " + count;		// Just some label for readability
+		var req = new XMLHttpRequest();		// Create the actual XMLHttpRequest object
+		req.open("GET", URL);			// Configure the connection with HTTP method and URL
+
+		count += 1;
+		// On Load handler
+		req.onload = ()=> {
+			if (req.status === 200) {
+				console.log(label + " : Received " + req.responseText);
+			} else {	
+				console.log(label + " : Received error code : " + req.status);
 			}
-			console.log(result);
+			removeRequest(req);
+		};		
+		// On Timeout handler
+		req.ontimeout = ()=> {
+			console.log(label + " : Timed out after " + req.timeout + " ms");
+			removeRequest(req);
 		}
-	};
-};
+		// On Error handler
+		req.onerror = ()=> {
+			console.log(label + " : Resulted in an error !");
+			removeRequest(req);
+		};
+		// On Abort handler
+		req.onabort = ()=> {
+			console.log(label + " : Aborted");
+			removeRequest(req);
+		};
 
-// Cancel the last message in flight
-function CancelInflight(inflight) {
-	return function() {
+		// Overriding the toString method to print the label instead
+		// (used in removeRequest)
+		req.toString = ()=> {
+			return label;
+		};
+
+		// All the handlers are setup, so send the message
+		req.timeout = 5000;	 // Wait at most 5000 ms for a response
+		console.log("Sending request " + req);
+		inflight.push(req);	 // Add it to the inflight messages Array before sending it
+		req.send();
+	}
+
+	// Function for cancelling the last request, attached as the click event listener
+	var cancelRequest = ()=> {
 		if (inflight.length > 0) {
 			inflight[inflight.length - 1].abort();
 		} else {
 			alert("No messages in flight");
 		}
 	};
-}
 
-var RequestCount = function(msg, inflight) {
-	var count = 0;
-	var sendRequest = function() {
-		var xhr = new XMLHttpRequest();
-		var name = "XHR " + count;
-		var index = 0;
-		xhr.open("GET", msg + '-' + count);
-		count = count + 1;
-		var removeFromList = function() {
-			index = inflight.indexOf(xhr);
-			if (index > -1) {
-				inflight.splice(index, 1);
-			} else {
-				alert(name + " not found !");
-			}
-		};
-		xhr.onload = function() {
-			if (xhr.status==200) {
-				console.log(name + " : Received " + xhr.responseText);
-			} else {	
-				console.log(name + " : Received error code : " + xhr.status);
-			}
-			removeFromList();
-		};		
-		xhr.ontimeout = function() {
-			console.log(name + " : Timed out after " + xhr.timeout + " ms");
-			removeFromList();
-		}
-		xhr.onerror = function() {
-			console.log(name + " : Resulted in an error !");
-			removeFromList();
-		};  
-		xhr.onabort = function() {
-			console.log(name + " : Aborted");
-			removeFromList();
-		};
-		xhr.toString = function() {
-			return name;
-		};
-		// All the handlers are setup, so send the message
-		xhr.timeout = 5000;	 // Wait at most 5000 ms for a response
-		console.log("Sending request " + xhr);
-		inflight.push(xhr);	 // Add it to the inflight messages before sending it
-		xhr.send();
-	}
-	return sendRequest;
-};
-
-
-window.onload = function() {
+	// Find the buttons from the DOM and attach listeners
 	var ok = document.getElementById("OK");
-	var count = 0
-	var inflight = [];
-	ok.addEventListener("click", RequestCount("/hello", inflight), false);	// sendRequest upon button click		
+	ok.addEventListener("click", sendRequest, false);	// sendRequest upon button click
+
 	var cancel = document.getElementById("Cancel");
-	cancel.addEventListener("click", CancelInflight(inflight), false);	// cancel last sent request
-	setInterval(displayInFlight(inflight), 1000);			// Display the inflight list
+	cancel.addEventListener("click", cancelRequest, false);	// cancel last sent request
+
+	// Set up an interval handler for printing inflight messages
+	setInterval(()=> {
+		if (inflight.length > 0) {
+			var msg = "In flight messages : ";
+			for (var i = 0; i < inflight.length; i++) {
+				msg = msg + " (" + inflight[i] + ")";
+			}
+			console.log(msg);
+		}
+	}, 1000);			// Display the inflight list
 }
