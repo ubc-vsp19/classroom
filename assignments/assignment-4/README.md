@@ -41,4 +41,4 @@ Just to clarify, your `assignment-4` branch should look like the following:
 
 - Update either your own code from Assignment 3, or the sample solution code to accommodate the required changes for this assignment.
 - Create a branch, and name it appropriately (eg. assignment-4)
-- Make sure to push your changes to that branch before midnight (11:59 PM) on the date of the assignment deadline.
+- Make sure to push your changes to that branch before noon (11:59 AM) on the date of the assignment deadline.
