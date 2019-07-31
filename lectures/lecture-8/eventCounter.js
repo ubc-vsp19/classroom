@@ -1,10 +1,10 @@
-// Solution to class activity on Slide 18
-
 var EventEmitter = require('events').EventEmitter;
 if (! EventEmitter) process.exit(1);
 var fs = require("fs");
 
 function registerEvents(emitter, keywords) {
+	// Write your solution here 
+
 };
 
 // Read the contents of the file and setup the handlers to scan for words
