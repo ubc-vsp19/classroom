@@ -11,6 +11,6 @@
 6. [ECMAScript 2015 (ES6)](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-6.pdf)
 7. [AJAX and REST API](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-7.pdf)
 8. [NodeJS: Server-side JS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-8.pdf)
-9. Session and Cookie
-10. Modern Web Frameworks
+9. [Promise](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-9.pdf)
+10. Session and Cookie
 11. Revision
