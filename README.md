@@ -10,7 +10,7 @@ This repository contains all the materials for the course: **Building Modern Web
     1. [Assignment 1](https://github.com/ubc-vsp19/classroom/tree/master/assignments/assignment-1) - Due 12:00PM Monday, July 22, 2019
     2. [Assignment 2](https://github.com/ubc-vsp19/classroom/tree/master/assignments/assignment-2) - Due 12:00PM Thursday, July 25, 2019
     3. [Assignment 3](https://github.com/ubc-vsp19/classroom/tree/master/assignments/assignment-3) - Due 12:00PM Tuesday, July 30, 2019
-    4. [Assignment 4](https://github.com/ubc-vsp19/classroom/tree/master/assignments/assignment-4) - Due 12:00PM Tuesday, August 6, 2019
+    4. [Assignment 4](https://github.com/ubc-vsp19/classroom/tree/master/assignments/assignment-4) - Due 12:00PM Friday, August 6, 2019
 * [Schedule](https://calendar.google.com/calendar/embed?src=t3rs0qbtr2n2r43gsju9qk495k%40group.calendar.google.com&ctz=America%2FVancouver) - check the course schedule here (e.g., assignment release/due dates)
 * [Lectures](https://github.com/ubc-vsp19/classroom/tree/master/lectures) - for lecture slides and notes
     1. [Introduction](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-0.pdf)
