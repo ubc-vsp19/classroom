@@ -6,7 +6,7 @@ const cookie = require('cookie');       // need cookie for quickly parsing and s
 const uuid = require('uuid/v4');
 
 const PORT = 3000;
-const DISABLE_SESSION = false;
+const DISABLE_SESSION = true;
 
 // lightweight session management
 function getSessionManager(){
@@ -16,7 +16,7 @@ function getSessionManager(){
 
   return (req, res, next)=> {
     //console.log(req.get('Cookie'));
-    let cookies = cookie.parse(req.get('Cookie'));
+    let cookies = cookie.parse(req.get('Cookie') || '');
     if (!cookies.demoSessionID || !sessions[cookies.demoSessionID]){
       console.log("Haven't seen client!");
       let id = uuid();
