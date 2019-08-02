@@ -13,7 +13,7 @@ function getSessionManager(){
   let sessions = {};
   let parseSession = (req, res, next)=> {
     //console.log(req.get('Cookie'));
-    let cookies = cookie.parse(req.get('Cookie'));
+    let cookies = cookie.parse(req.get('Cookie') || '');
     if (!cookies.demoSessionID || !sessions[cookies.demoSessionID]){
       console.log("Haven't seen client!");
       let id = uuid();
