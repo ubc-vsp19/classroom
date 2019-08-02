@@ -1,5 +1,12 @@
 <html>
-  <head></head>
+  <head>
+    <!-- This is a malicious page that an attacker would create
+         and then mount a phishing attack (having the victim visit this page).
+         upon the user visiting this page, this form would be submitted to
+         the web server, which would consider this as a legitimate request
+         performed by the victim. The victim would end up transferring money
+         to the attacker -->
+  </head>
   <body>
     <h1>User: victim001 <span><a href='/logout'>Log out</a></span></h1>
     <h3>Transfer Funds</h3>

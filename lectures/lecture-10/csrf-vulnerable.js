@@ -1,5 +1,10 @@
 // Warning: DO NOT RUN THIS in a public setting
-// it is an example to demonstrate a xss vulnerability
+// it is an example to demonstrate a csrf vulnerability
+// 
+// This website does not check for additional CSRF tokens
+// when a user makes a POST request to the /transfer endpoint.
+// An attacker can fabricate the POST form and present it to the victim,
+// so that the form is submitted as if the victim submitted the form
 
 const express = require('express');	// need express to run this example - i.e. npm i express
 const cookie = require('cookie');       // need cookie for quickly parsing and serializing cookie

@@ -23,6 +23,10 @@ let data = {
   }]
 };
 
+// This server does not sanitize the content given by the user.
+// The content could be something like <script>steal(document.cookie)</script>
+// and this will be rendered by the web server as-is.
+// The attack will impact everyone who visits the website.
 function addComment(username, content){
   data.comments.push({
     username: username,
@@ -50,6 +54,10 @@ app.use((req, res, next)=> {
 
 app.get('/', (req, res, next)=> {
   
+  // This web server simply renders the user-given content
+  // without sanitizing it. Any user with the ability to post
+  // to this page can inject malicious code, which would be
+  // executed in every visitor's browser
   let comments = data.comments.map((item)=> `<div>
   <span><b>${item.username}</b> says:</span>  ${item.content}
 </div>`);
