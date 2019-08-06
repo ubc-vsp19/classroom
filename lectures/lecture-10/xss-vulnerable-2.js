@@ -60,7 +60,7 @@ app.get('/', (req, res, next)=> {
   // executed in every visitor's browser
   let comments = data.comments.map((item)=> `<div>
   <span><b>${item.username}</b> says:</span>  ${item.content}
-</div>`);
+</div>`).join('\n');
 
   let form = `<form action="/add" method="POST">
 <div><input name="username" placeholder="Username"/></div>
