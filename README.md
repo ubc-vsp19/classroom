@@ -24,6 +24,7 @@ This repository contains all the materials for the course: **Building Modern Web
     9. [NodeJS: Server-side JS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-8.pdf)
     10. [Promise](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-9.pdf)
     11. [Session and Cookie](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-10.pdf)
+    12. [Revision](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-11.pdf)
 * [Discussions](https://github.com/orgs/ubc-vsp19/teams/everyone) - for discussions on course-related topics and other class-wide discussions.
 * [Tutorials](https://github.com/ubc-vsp19/classroom/tree/master/tutorials) - additional tutorials that might be useful
     * [Setting up Git](https://github.com/ubc-vsp19/classroom/blob/master/tutorials/git-setup.md)

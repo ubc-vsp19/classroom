@@ -13,4 +13,4 @@
 8. [NodeJS: Server-side JS](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-8.pdf)
 9. [Promise](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-9.pdf)
 10. [Session and Cookie](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-10.pdf)
-11. Revision
+11. [Revision](https://github.com/ubc-vsp19/classroom/raw/master/lectures/lecture-11.pdf)
