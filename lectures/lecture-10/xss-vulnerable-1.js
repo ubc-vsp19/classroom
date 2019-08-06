@@ -23,7 +23,11 @@ app.get('/search', (req, res, next)=> {
     res.status(200)
       .send(req.query.text + " could not be found");
   }
-  else res.status(200).send("Enter a query string to exploit this page");
+  else res.status(200).send("Enter a query string to exploit this page. E.g., /search?text=Foo");
+});
+
+app.get('/', (req, res, next)=> {
+	res.status(200).send('Go to: <b>/search?text=Foo</b> to access the vulnerable page.<br/>Try: <b>/search?text=&lt;script&gt;alert("HAHA")&lt;/script&gt;</b>');
 });
 
 app.listen(PORT, ()=> console.log("server started\n-----\n"));
