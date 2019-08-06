@@ -1,5 +1,8 @@
 // Warning: DO NOT RUN THIS in a public setting
 // it is an example to demonstrate a xss vulnerability
+// 
+// This program generates a temporary file named temp-bad.data
+// Remove the file after demonstration
 
 const fs = require('fs');
 const util = require('util');
@@ -91,4 +94,4 @@ app.post('/add', (req, res, next)=> {
   else res.status(403).send('Fill in both username and content');
 });
 
-app.listen(PORT, ()=> console.log("server started\n-----\n"));
+app.listen(PORT, ()=> console.log("server started\n-----\nRemember to remove temp-bad.data file after the demonstration"));
