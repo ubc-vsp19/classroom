@@ -31,12 +31,12 @@ var keywords = ["a", "the", "this", "is", "an", "test"];
 
 var e = new EventEmitter();
 var printCounts = registerEvents(e, keywords);
-
 // Read the file contents and emit it to the stream one word at a time
 printCounts();
 // e.emit("the");
 // e.emit("a");
 // e.emit("the");
+console.log("Starting event stream");
 var words = text.split(" ");
 words.forEach( function(word){
 		e.emit(word.trim());	

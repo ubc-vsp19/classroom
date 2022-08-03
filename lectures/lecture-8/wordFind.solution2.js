@@ -24,9 +24,9 @@ readStream.on("data", function(blob) {
 	    matchIndex++;
 	    if (matchIndex==textToFind.length) {
 		// If all the characters match, we have found it
-		index = i;
-		readStream.emit("end");	
-		break;
+			index = i;
+			readStream.emit("end");	
+			break;
 	    }
 	} else if (matchIndex > 0){
 	    // reset the matchIndex even if a single character doesn't match
